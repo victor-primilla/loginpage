@@ -1,2 +1,2 @@
-# loginpage
-página de login (área de acesso) responsiva.
+# Login Page
+Área de acesso, responsiva.
