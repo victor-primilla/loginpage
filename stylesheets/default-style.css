@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -21,15 +21,15 @@ form{
     flex-direction: column;
     align-items: center;
     width: 25vw;
-    background-color: #ffffff74;
+    background-color: #ffffffb8;
     border-radius: 10px;
-    box-shadow: #575757 5px 5px 10px;
+    box-shadow: #575757 0px 0px 10px;
     backdrop-filter: blur(5px);
 }
-form h2{
+form h1{
     margin-top: 15px;
-    color: #fff;
-    text-shadow: #000000 1px 1px 2px;
+    font-weight: bolder;
+    color: #159dff;
 }
 form label{
     display: flex;
@@ -41,15 +41,14 @@ form label{
     padding: 3px;
     box-sizing: border-box;
 }
-label p {
-    margin-left: 15px;
-    width: 100%;}
+label p {width: 80%;}
 
 .container-icon-input-form{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #ffffff;
+    margin-top: 5px;
     padding: 0px 5px;
     width: 80%;
     height: 32px;
@@ -69,6 +68,9 @@ label p {
     width: 100%;
     border: none;
     border-bottom: #07c2ec solid 1px ;
+}
+.container-icon-input-form input::placeholder{
+    font-size: larger;
 }
 #button-enviar{
     margin-top: 7px;
@@ -103,21 +105,15 @@ label p {
     color: #000;}
 #container-cadastro{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin: 7px 0px;
     width: 80%;
 }
-#container-cadastro p{ 
-    margin-right: 5px; 
-    height: max-content; 
-    color: #159dff;
-    font-weight: bold;
-}
 #container-cadastro button{
     width: max-content;
-    padding: 0 7px;
+    padding: 7px 15px;
     background-color: #fff;
     border: #159dff solid 1px;
     border-radius: 3px;
