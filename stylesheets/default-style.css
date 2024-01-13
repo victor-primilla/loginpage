@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rajdhani', sans-serif;
+}
+body{
+    background-image: url('../imgs/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25vw;
+    background-color: #ffffff74;
+    border-radius: 10px;
+    box-shadow: #575757 5px 5px 10px;
+    backdrop-filter: blur(5px);
+}
+form h2{
+    margin-top: 15px;
+    color: #fff;
+    text-shadow: #000000 1px 1px 2px;
+}
+form label{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: large;
+    width: 100%;
+    margin-top: 10px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+label p {
+    margin-left: 15px;
+    width: 100%;}
+
+.container-icon-input-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 0px 5px;
+    width: 80%;
+    height: 32px;
+    border: #3c3c3c solid 1px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.container-icon-input-form img{
+    width: 20px;
+    height: 18px;
+    margin: 3px;
+}
+.container-icon-input-form input{
+    padding: 0 5px;
+    font-size: medium;
+    height: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: #07c2ec solid 1px ;
+}
+#button-enviar{
+    margin-top: 7px;
+    width: 78%;
+    height: 30px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #15adff;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+}
+#button-enviar:hover  {
+    border: solid #fff 1px;
+    color: #fff;
+    background-color: #15d0ff;
+}
+#container-recuperar-senha{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    font-size: medium;
+    margin-top: 7px;
+    margin-right: 5px;
+
+}
+#container-recuperar-senha p {
+    margin-right: 5px;
+}
+#container-recuperar-senha a{
+    text-decoration: underline #159dff;
+    color: #000;}
+#container-cadastro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 7px 0px;
+    width: 80%;
+}
+#container-cadastro p{ 
+    margin-right: 5px; 
+    height: max-content; 
+    color: #159dff;
+    font-weight: bold;
+}
+#container-cadastro button{
+    width: max-content;
+    padding: 0 7px;
+    background-color: #fff;
+    border: #159dff solid 1px;
+    border-radius: 3px;
+    font-weight: 600;
+    color: #159dff;
+    font-weight: bold;
+}
+#container-cadastro button:hover{
+    background-color: #15adff;
+    color: #fff;
+    border: #fff solid 1px;
+}
+@media screen and (max-width:912px) {
+    form {
+        width: 40vw;
+    }    
+}
+@media screen and (max-width:520px) {
+    form {
+        width: 70vw;
+    }    
+}
