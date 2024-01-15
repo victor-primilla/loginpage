@@ -3,35 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login Page</title>
     <link rel="stylesheet" href="stylesheets/default-style.css">
 </head>
 <body>
     <main>
-        <form action="">
+        <form action="php/auth.php" method="post">
             <h1>LOGIN</h1>
-            <label for="inputUser">
-                <p>Usuário:</p>
+            <label for="inputUser">Usuário:</label>
                 <div class="container-icon-input-form">
                     <img src="imgs/perfil.png" alt="">
-                    <input type="text" id="inputUser" placeholder="user">
+                    <input type="text" id="inputUser" name="usuario">
                 </div>
-            </label>
             
-            <label for="inputPassoword">
-                <p>Senha:</p>
+            <label for="inputPassoword">Senha:</label>
                 <div class="container-icon-input-form">
                     <img src="imgs/icon-senha.png" alt="">
-                    <input type="password" id="inputPassoword" placeholder="password">
+                    <input type="password" id="inputPassoword" name="senha">
                 </div>
-            </label>
-            <input type="submit" id="button-enviar" value="ENTRAR">
-            <div id="container-recuperar-senha">
-                <p class="text-form">Esqueceu a senha?</p>
-                <a href="">Recuperar</a>
-            </div>
+            <input type="submit" id="button-enviar" value="ENTRAR">         
+            <p id="recuperar-senha"><a href="">Recuperar senha</a></p>
             <div id="container-cadastro">
-                <button type="button">FAÇA O CADASTRO</button>
+                <button type="button">NOVO CADASTRO</button>
             </div>
         </form>
     </main>
