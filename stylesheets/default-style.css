@@ -33,15 +33,13 @@ form h1{
 }
 form label{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
     font-size: large;
-    width: 100%;
+    width: 80%;
     margin-top: 10px;
     padding: 3px;
     box-sizing: border-box;
 }
-label p {width: 80%;}
+label{width: 80%;}
 
 .container-icon-input-form{
     display: flex;
@@ -70,10 +68,10 @@ label p {width: 80%;}
     border-bottom: #07c2ec solid 1px ;
 }
 .container-icon-input-form input::placeholder{
-    font-size: larger;
+    color: #3c3c3c;
 }
 #button-enviar{
-    margin-top: 7px;
+    margin-top: 15px;
     width: 78%;
     height: 30px;
     font-weight: bold;
@@ -91,18 +89,29 @@ label p {width: 80%;}
 #container-recuperar-senha{
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
-    font-size: medium;
-    margin-top: 7px;
+    justify-content: center;
+   
     margin-right: 5px;
 
 }
-#container-recuperar-senha p {
-    margin-right: 5px;
+#recuperar-senha{
+    width: 80%;
+    text-align: center;
+    font-size: medium;
+    margin-top: 7px;
 }
-#container-recuperar-senha a{
+#recuperar-senha a{
     text-decoration: underline #159dff;
-    color: #000;}
+    color: #000;
+}
+#recuperar-senha a:visited{
+    text-decoration: underline #159dff;
+    color: #000;
+}
+#recuperar-senha a:hover{
+    text-decoration: underline #159dff;
+    color: #159dff;
+}
 #container-cadastro{
     display: flex;
     justify-content: center;
